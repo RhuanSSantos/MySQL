@@ -60,9 +60,9 @@ ENGINE = InnoDB;
 -- -----------------------------------------------------
 -- Table `Farmacia`.`Cliente`
 -- -----------------------------------------------------
-DROP TABLE IF EXISTS `Farmacia`.`Cliente` ;
+DROP TABLE IF EXISTS `Farmacia`.`Clientes` ;
 
-CREATE TABLE IF NOT EXISTS `Farmacia`.`Cliente` (
+CREATE TABLE IF NOT EXISTS `Farmacia`.`Clientes` (
   `id` INT NOT NULL AUTO_INCREMENT,
   `nome` VARCHAR(100) NOT NULL,
   `endereco` VARCHAR(200) NOT NULL,
