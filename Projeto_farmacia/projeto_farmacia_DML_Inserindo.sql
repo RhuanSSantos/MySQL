@@ -16,9 +16,9 @@ INSERT INTO medicos (nome, crm) VALUES ('Fernando Aliva', '3423423MG');
 INSERT INTO medicos (nome, crm) VALUES ('Julieta Santana', '565465C');
 
 -- Clientes
-INSERT INTO cliente (nome, endereco, telefone, cep, localidade, cpf) VALUES ('Felicity Jones','Rua da Paz, 34', '(11) 2345-8892', '34.4567-092', 'Santos', '234.789.433-23');
-INSERT INTO cliente (nome, endereco, telefone, cep, localidade, cpf) VALUES ('Angelica Ramos','Rua do Ipiranga, 465', '(23) 75233-3234', '56.654-567', 'Rio de Janeiro', '354.689.231-12');
-INSERT INTO cliente (nome, endereco, telefone, cep, localidade, cpf) VALUES ('Ricardo Chavez','Rua Certa, 678', '(21) 2678-3984', '12.4569-223', 'Planaltina', '786.234.443-32');
+INSERT INTO clientes (nome, endereco, telefone, cep, localidade, cpf) VALUES ('Felicity Jones','Rua da Paz, 34', '(11) 2345-8892', '34.4567-092', 'Santos', '234.789.433-23');
+INSERT INTO clientes (nome, endereco, telefone, cep, localidade, cpf) VALUES ('Angelica Ramos','Rua do Ipiranga, 465', '(23) 75233-3234', '56.654-567', 'Rio de Janeiro', '354.689.231-12');
+INSERT INTO clientes (nome, endereco, telefone, cep, localidade, cpf) VALUES ('Ricardo Chavez','Rua Certa, 678', '(21) 2678-3984', '12.4569-223', 'Planaltina', '786.234.443-32');
 
 -- Produtos
 INSERT INTO produtos (produto, designacao, composicao, preco_venda, id_tipo_produto, id_fabricante) VALUES ('Dipirona', 'Dores em geral', 'Metilpropileno', '12.44', 1, 1);
